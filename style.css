@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* banner start */
+.banner{
+     display: flex;
+     margin-bottom: 220px;
+     background-image: url(ef052f40-efba-4e30-a571-b272ffd3bdfd.jpeg);
+     background-repeat: no-repeat;
+
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+   margin-left: 30px;
+}
+ .half-width h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.half-width h3{
+    margin-bottom: 30px;
+    
+}
+.half-width p{
+    margin-bottom: 30px;
+
+}
+.half-width a{
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 30px;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: .3s all ease-in;
+}
+.half-width a:hover{
+    background-color: darkcyan;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width span{
+    color: coral;
+
+}
+/* banner end */
+
+/* dream-big start */
+
+.dream-big{
+    display: flex;
+    background-image: url(aa9e69af-cd78-4cda-bd20-ffec0472605d.jpeg);
+    background-repeat: no-repeat;
+    background-position:right ;
+    margin-bottom: 220px;
+    
+
+}
+.extra-padding{
+    padding-right: 15%;
+
+}
+/* dream-big-end */
+.ex-h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.experiences{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+    background-image: url(f4088399-97eb-44cd-8c76-14b34a50ed81.jpeg);
+    background-repeat: no-repeat;
+    
+    
+
+}
+.developer{
+
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 30px;
+    border-left: 7px solid blue;
+    border-bottom: 7px solid blue;
+    margin-left: 8%;
+}
+.developer h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.developer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: orange;
+
+}
+.developer p{
+    margin-bottom: 20px;
+    
+}
+.orange-border{
+    border-left: 7px solid orange;
+    border-bottom: 7px solid orange;
+}
+/* experiences end */
+
+/* footer start */
+footer{
+    text-align: center;
+}
+/* footer end */
