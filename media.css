@@ -1,0 +1,241 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .banner{
+    flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-size: 200px;
+        margin-bottom: 100px;
+        
+  }
+
+  .half-width{
+    width: 90%;
+    padding-left: 0;
+    margin-right: 30px;
+}
+.half-width img{
+    width: 95%;
+
+}
+.half-width h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.half-width h3{
+    margin-bottom: 10px;
+}
+.half-width p{
+    margin-bottom: 20px;
+}
+.half-width a{
+    padding: 8px 15px;
+}
+.dream-big{
+  flex-direction: column;
+      justify-content: center;
+      background-size: 0px;
+      margin-bottom: 100px;
+      
+}  
+.half-width{
+  width: 90%;
+  padding-left: 0;
+  
+}
+.half-width img{
+  width: 95%;
+
+}
+.extra-padding h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.extra-padding h3{
+  margin-bottom: 10px;
+}
+.extra-padding p{
+  margin-bottom: 15px ;
+}
+
+
+    .experiences{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        background-size: 0;
+}   
+ 
+.developer{
+    width: 80%;
+    margin-bottom: 40px;
+    padding: 20px;
+    margin-left: 50px;
+}
+  .developer h2{
+    font-size: 15px;
+  }
+  .developer h2, .developer h3, .developer p{
+    margin-bottom: 10px;
+  }
+  .developer h3{
+    font-size: 14px;
+  }
+  footer{
+    font-size: 14px;
+  }
+  .ex-h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 14px;
+
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .banner{
+    flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-size: 200px;
+        margin-bottom: 100px;
+        
+  }
+
+  .half-width{
+    width: 90%;
+    padding-left: 0;
+    margin-right: 30px;
+}
+.half-width img{
+    width: 95%;
+
+}
+.half-width h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.half-width h3{
+    margin-bottom: 10px;
+}
+.half-width p{
+    margin-bottom: 20px;
+}
+.half-width a{
+    padding: 8px 15px;
+}
+  
+.dream-big{
+  flex-direction: column;
+      justify-content: center;
+      
+      background-size: 0px;
+      margin-bottom: 100px;
+      
+}
+    .experiences{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        background-size: 30px;
+}    
+.developer{
+    width: 80%;
+    margin-bottom: 40px;
+}
+  .developer h2{
+    font-size: 25px;
+  }
+  .developer h2, .developer h3, .developer p{
+    margin-bottom: 10px;
+  }
+  .ex-h2{
+    font-size: 30px;
+    text-align: center;
+  }
+  
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner{
+    background-size: 700px;
+  }
+  .half-width a{
+    padding: 10px 20px;
+}
+  .half-width img{
+    width: 97%;
+  }
+  .dream-big{
+    background-size: 120px;
+  }
+    .ex-h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+       .experiences{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0;
+            background-size: 90px;
+    }    
+    .developer{
+        width: 70%;
+        margin-bottom: 40px;
+    }
+    .developer h2{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .developer h3, .developer p{
+        margin-bottom: 15px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .banner{
+    background-size: 730px;
+  }
+  .dream-big{
+    background-size: 150px;
+  }
+
+    .developer{
+        width: 35%;
+    }
+    .developer h2{
+      font-size: 30px;
+    }
+    .experiences{
+        background-size: 66px;
+    }
+  
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){
+  .banner{
+    background-size: 800px;
+  }
+  .dream-big{
+    background-size: 170px;
+  }
+    .developer{
+        width: 35%;
+    }
+    .experiences{
+        background-size: 75px;
+    }
+}
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}

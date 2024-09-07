@@ -80,18 +80,16 @@ body{
     margin-bottom: 130px;
     background-image: url(f4088399-97eb-44cd-8c76-14b34a50ed81.jpeg);
     background-repeat: no-repeat;
-    
-    
 
 }
 .developer{
 
-    width: 40%;
+    width: 35%;
     box-shadow: 10px 10px 40px grey;
     padding: 30px;
     border-left: 7px solid blue;
-    border-bottom: 7px solid blue;
-    margin-left: 8%;
+    
+    margin-left: 4%;
 }
 .developer h2{
     font-size: 40px;
@@ -110,7 +108,7 @@ body{
 }
 .orange-border{
     border-left: 7px solid orange;
-    border-bottom: 7px solid orange;
+    
 }
 /* experiences end */
 
